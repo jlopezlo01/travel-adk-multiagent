@@ -27,4 +27,4 @@ git push -u origin develop
 git push -u origin feature/travel-multiagent
 ```
 
-El repositorio aún no está inicializado porque se necesita la identidad Git de tu equipo. Ejecuta primero la secuencia anterior, crea el repositorio remoto y reemplaza `TU_USUARIO` antes de publicar.
+La identidad Git del equipo se usó para crear el commit local inicial. El proyecto ya tiene las ramas `main`, `develop` y `feature/travel-multiagent`, y el trabajo está en esta última. Aún no hay remoto configurado; crea el repositorio en GitHub y reemplaza `TU_USUARIO` antes de publicar.

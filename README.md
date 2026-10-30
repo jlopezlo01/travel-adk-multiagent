@@ -65,15 +65,14 @@ Guarda las respuestas reales de Cusco y París como evidencia después de ejecut
 
 El laboratorio propone `main`, `develop` y `feature/travel-multiagent`, y un Pull Request hacia `develop`. Revisa [ENTREGA.md](ENTREGA.md) para los pasos que necesitan tus cuentas de GitHub y Sonar.
 
-Para iniciar el repositorio y crear las ramas después de configurar tu identidad Git:
+El repositorio local ya está inicializado y la rama actual es `feature/travel-multiagent`.
+Para publicarlo después de crear el repositorio vacío en GitHub:
 
 ```powershell
-git init
-git add .
-git commit -m "feat: add travel multiagent laboratory"
-git branch -M main
-git switch -c develop
-git switch -c feature/travel-multiagent
+git remote add origin https://github.com/TU_USUARIO/travel-adk-multiagent.git
+git push -u origin main
+git push -u origin develop
+git push -u origin feature/travel-multiagent
 ```
 
 ## Preguntas de análisis

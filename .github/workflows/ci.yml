@@ -27,7 +27,7 @@ jobs:
       - name: Run tests with coverage
         run: poetry run pytest --cov=travel_assistant --cov-report=xml
       - name: Run Sonar analysis
-        uses: SonarSource/sonarqube-scan-action@v5
+        uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_HOST_URL: https://sonarcloud.io
